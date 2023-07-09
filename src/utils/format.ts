@@ -1,4 +1,4 @@
-// 示例方法，没有实际意义
-export function trim(str: string) {
-  return str.trim();
-}
+/**
+ * 去除字符左右多余空格
+ */
+export const trim = (str: string) => str.trim();
